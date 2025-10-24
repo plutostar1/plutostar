@@ -1,0 +1,107 @@
+/* pages/tea-origins.css */
+/* 名茶产地页面特定样式 */
+
+.intro-text {
+    margin-bottom: 3rem;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.origins-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.origin-card {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.origin-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.origin-info {
+    padding: 2rem;
+}
+
+.origin-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.origin-info h4 {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.origin-info ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.origin-info li {
+    margin-bottom: 0.5rem;
+}
+
+/* 地图样式 */
+.map-section {
+    padding: 4rem 0;
+}
+
+.tea-map {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.tea-map img {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.map-legend {
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.map-legend h4 {
+    margin-bottom: 1rem;
+}
+
+.map-legend ul {
+    list-style: none;
+    padding: 0;
+}
+
+.map-legend li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.color-green, .color-red, .color-blue, .color-brown {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.color-green { background-color: var(--primary-color); }
+.color-red { background-color: #d9534f; }
+.color-blue { background-color: #dbf837; }
+.color-brown { background-color: var(--secondary-color); }

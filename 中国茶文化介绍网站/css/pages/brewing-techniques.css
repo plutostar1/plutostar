@@ -1,0 +1,88 @@
+/* pages/brewing-techniques.css */
+/* 泡茶技巧页面特定样式 */
+
+.technique-section {
+    margin: 2rem 0;
+}
+
+.technique-table {
+    overflow-x: auto;
+    margin: 2rem 0;
+}
+
+.technique-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.technique-table th {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+}
+
+.technique-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.technique-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.technique-table tr:hover {
+    background: #f0f0f0;
+}
+
+/* 常见误区样式 */
+.common-mistakes {
+    margin: 4rem 0;
+}
+
+.mistakes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.mistake-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.mistake-item h4 {
+    color: #d9534f;
+    margin-bottom: 1rem;
+}
+
+/* 专家建议样式 */
+.expert-tips {
+    background: #f5f5f5;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.tips-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.tip-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.tip-card h3 {
+    margin-bottom: 1rem;
+}
