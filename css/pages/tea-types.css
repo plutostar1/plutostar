@@ -1,0 +1,48 @@
+/* pages/tea-types.css */
+/* 茶叶种类页面特定样式 */
+
+.tea-types-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.tea-type-card {
+    background: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.tea-type-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.tea-type-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tea-type-info {
+    padding: 1.5rem;
+}
+
+.tea-type-info h3 {
+    margin-bottom: 0.5rem;
+}
+
+.tea-characteristics {
+    margin-top: 1rem;
+}
+
+.tea-characteristics ul {
+    padding-left: 1.5rem;
+}
+
+.tea-characteristics li {
+    margin-bottom: 0.3rem;
+}
